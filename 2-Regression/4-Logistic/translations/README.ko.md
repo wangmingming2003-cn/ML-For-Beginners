@@ -1,6 +1,6 @@
 # 카테고리 예측하는 Logistic regression
 
-![Logistic vs. linear regression infographic](.././images/logistic-linear.png)
+![Logistic vs. linear regression infographic](../images/logistic-linear.png)
 > Infographic by [Dasani Madipalli](https://twitter.com/dasani_decoded)
 
 ## [강의 전 퀴즈](https://gray-sand-07a10f403.1.azurestaticapps.net/quiz/15/)
@@ -38,7 +38,7 @@ Logistic regression는 일부 중요한 점에서, 이전에 배운, linear regr
 
 Logistic regression은 linear regression와 동일한 features를 제공하지 않습니다. 이전은 binary category ("orange or not orange")에 대한 예측을 해주는 데에 비해 후자를 예시로 들어보면, 호박의 태생과 수확 시기에 따라 _가격이 얼마나 오르는 지_ 연속 값을 예측할 수 있습니다.
 
-![Pumpkin classification Model](.././images/pumpkin-classifier.png)
+![Pumpkin classification Model](../images/pumpkin-classifier.png)
 > Infographic by [Dasani Madipalli](https://twitter.com/dasani_decoded)
 
 ### 다른 classifications
@@ -48,7 +48,7 @@ Logistic regression은 linear regression와 동일한 features를 제공하지 �
 - **다항분포**, 하나보다 더 많은 카테고리를 포함합니다. - "Orange, White, and Striped".
 - **순서수**, 정렬된 카테고리가 포함되며, 유한한 숫자 크기 (mini,sm,med,lg,xl,xxl)로 정렬된 호박과 같이, 결과를 논리적으로 정렬하고 싶을 때 유용합니다.
 
-![Multinomial vs ordinal regression](.././images/multinomial-ordinal.png)
+![Multinomial vs ordinal regression](../images/multinomial-ordinal.png)
 > Infographic by [Dasani Madipalli](https://twitter.com/dasani_decoded)
 
 ### 여전한 linear
@@ -91,7 +91,7 @@ Logistic regression은 많은 데이터로 정확한 결과를 줍니다; 작은
 
 ### 시각화 - side-by-side 그리드
 
-호박 데이터가 있는 [starter notebook](.././notebook.ipynb)을 다시 불러오고 `Color` 포함한, 몇 변수를 데이터셋에 컨테이너화하려고 정리했습니다. 다른 라이브러리를 사용해서 노트북에서 데이터프레임을 시각화해봅니다: [Seaborn](https://seaborn.pydata.org/index.html)은, 이전에 썻던 Matplotlib을 기반으로 만들어졌습니다. 
+호박 데이터가 있는 [starter notebook](../notebook.ipynb)을 다시 불러오고 `Color` 포함한, 몇 변수를 데이터셋에 컨테이너화하려고 정리했습니다. 다른 라이브러리를 사용해서 노트북에서 데이터프레임을 시각화해봅니다: [Seaborn](https://seaborn.pydata.org/index.html)은, 이전에 썻던 Matplotlib을 기반으로 만들어졌습니다. 
 
 Seaborn은 데이터를 시각화하는 깔끔한 방식들을 제공합니다. 예시로, side-by-side 그리드의 각 포인트에 대한 데이터의 분포를 비교할 수 있습니다.
 
@@ -283,7 +283,7 @@ sns.lineplot(fpr, tpr)
 
 Seaborn을 다시 사용해서, 모델의 [Receiving Operating Characteristic](https://scikit-learn.org/stable/auto_examples/model_selection/plot_roc.html?highlight=roc) 또는 ROC를 plot합니다. ROC 곡선은 classifier의 아웃풋을 true 대 false positives 관점에서 보려고 수시로 사용됩니다. "ROC curves typically feature true positive rate on the Y axis, and false positive rate on the X axis." 따라서, 곡선의 경사도와 중간 포인트 라인과 곡선 사이 공간이 중요합니다; 라인 위로 빠르게 지나는 곡선을 원합니다. 이 케이스에서, 시작해야 할 false positives가 있고, 라인이 적당하게 계속 이어집니다:
 
-![ROC](.././images/ROC.png)
+![ROC](../images/ROC.png)
 
 마지막으로, Scikit-learn의 [`roc_auc_score` API](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.roc_auc_score.html?highlight=roc_auc#sklearn.metrics.roc_auc_score)를 사용해서 실제 'Area Under the Curve' (AUC)를 계산합니다:
 

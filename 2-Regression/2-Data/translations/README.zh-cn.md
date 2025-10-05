@@ -200,4 +200,4 @@
 
 ## 任务
 
-[探索可视化](./assignment.zh-cn.md)
+[探索可视化](assignment.zh-cn.md)

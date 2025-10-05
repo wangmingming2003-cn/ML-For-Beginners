@@ -1,10 +1,10 @@
 # Build a regression model using Scikit-learn: regression four ways
 
-![Linear vs polynomial regression infographic](./images/linear-polynomial.png)
+![Linear vs polynomial regression infographic](images/linear-polynomial.png)
 > Infographic by [Dasani Madipalli](https://twitter.com/dasani_decoded)
 ## [Pre-lecture quiz](https://gray-sand-07a10f403.1.azurestaticapps.net/quiz/13/)
 
-> ### [This lesson is available in R!](./solution/R/lesson_3-R.ipynb)
+> ### [This lesson is available in R!](solution/R/lesson_3-R.ipynb)
 ### Introduction 
 
 So far you have explored what regression is with sample data gathered from the pumpkin pricing dataset that we will use throughout this lesson. You have also visualized it using Matplotlib.

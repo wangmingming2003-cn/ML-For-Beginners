@@ -48,7 +48,7 @@ Travel with us around the world as we apply these classic techniques to data fro
 
 Some of the lessons are available as short form video. You can find all these in-line in the lessons, or on the [ML for Beginners playlist on the Microsoft Developer YouTube channel](https://aka.ms/ml-beginners-videos) by clicking the image below.
 
-[![ML for beginners banner](./ml-for-beginners-video-banner.png)](https://aka.ms/ml-beginners-videos)
+[![ML for beginners banner](ml-for-beginners-video-banner.png)](https://aka.ms/ml-beginners-videos)
 
 ---
 

@@ -111,4 +111,4 @@
 
 ## 課題
 
-[年表を作成する](./assignment.ja.md)
+[年表を作成する](assignment.ja.md)

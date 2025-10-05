@@ -307,4 +307,4 @@ print(auc)
 
 ## 課題 
 
-[回帰に再挑戦する](./assignment.ja.md)
+[回帰に再挑戦する](assignment.ja.md)

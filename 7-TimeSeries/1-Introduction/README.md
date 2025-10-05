@@ -103,7 +103,7 @@ The data might display an abrupt change that might need further analysis. The ab
 
 ✅ Here is a [sample time series plot](https://www.kaggle.com/kashnitsky/topic-9-part-1-time-series-analysis-in-python) showing daily in-game currency spent over a few years. Can you identify any of the characteristics listed above in this data?
 
-![In-game currency spend](./images/currency.png)
+![In-game currency spend](images/currency.png)
 
 ## Exercise - getting started with power usage data
 

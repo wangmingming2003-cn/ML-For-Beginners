@@ -1,6 +1,6 @@
 # Scikit-learn 사용한 regression 모델 만들기: 데이터 준비와 시각화 
 
-> ![Data visualization infographic](.././images/data-visualization.png)
+> ![Data visualization infographic](../images/data-visualization.png)
 
 > Infographic by [Dasani Madipalli](https://twitter.com/dasani_decoded)
 
@@ -164,7 +164,7 @@ Jupyter notebooks에서 잘 작동하는 데이터 시각화 라이브러리는 
     plt.show()
     ```
 
-    ![A scatterplot showing price to month relationship](.././images/scatterplot.png)
+    ![A scatterplot showing price to month relationship](../images/scatterplot.png)
 
     쓸모있는 plot인가요? 어떤 것에 놀랬나요?
 
@@ -181,7 +181,7 @@ Jupyter notebooks에서 잘 작동하는 데이터 시각화 라이브러리는 
     plt.ylabel("Pumpkin Price")
     ```
 
-    ![A bar chart showing price to month relationship](.././images/barchart.png)
+    ![A bar chart showing price to month relationship](../images/barchart.png)
 
     조금 더 유용한 데이터 시각화힙니다! 호박 가격이 가장 높았을 때는 9월과 10월로 보여집니다. 기대하던 목표에 부합하나요? 왜 그렇게 생각하나요?
 

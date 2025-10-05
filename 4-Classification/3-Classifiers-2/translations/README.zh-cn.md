@@ -232,4 +232,4 @@ weighted avg       0.73      0.72      0.72      1199
 
 ## 作业
 
-[玩转参数](../translations/assignment.zh-cn.md)
+[玩转参数](assignment.zh-cn.md)

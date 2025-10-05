@@ -342,6 +342,6 @@ print(model.predict([[50,44,-12]]))
 
 ## 任務
 
-[嘗試不同的模型](./assignment.zh-tw.md)
+[嘗試不同的模型](assignment.zh-tw.md)
 
 

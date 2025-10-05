@@ -298,4 +298,4 @@ print(auc)
 
 ## 任務
 
-[重試此回歸](./assignment.zh-tw.md)
+[重試此回歸](assignment.zh-tw.md)

@@ -103,7 +103,7 @@ seasonality의 독립적으로, 1년 보다 긴 경제 침체같은 long-run cyc
 
 ✅ 여기는 몇 년이 넘도록 일일 인-게임 통화를 보여주는 [sample time series plot](https://www.kaggle.com/kashnitsky/topic-9-part-1-time-series-analysis-in-python)입니다. 이 데이터에서 리스트로 되어있는 특성을 모두 식별할 수 있나요?
 
-![In-game currency spend](.././images/currency.png)
+![In-game currency spend](../images/currency.png)
 
 ## 연습 - 전력 사용량 데이터로 시작하기
 

@@ -339,4 +339,4 @@ Scikit-learn 包含一個用於構建多項式回歸模型的有用 API - `make_
 
 ## 任務
 
-[構建模型](./assignment.zh-tw.md)
+[構建模型](assignment.zh-tw.md)

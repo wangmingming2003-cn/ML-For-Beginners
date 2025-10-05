@@ -1,10 +1,10 @@
 # Logistic regression to predict categories
 
-![Logistic vs. linear regression infographic](./images/linear-vs-logistic.png)
+![Logistic vs. linear regression infographic](images/linear-vs-logistic.png)
 
 ## [Pre-lecture quiz](https://gray-sand-07a10f403.1.azurestaticapps.net/quiz/15/)
 
-> ### [This lesson is available in R!](./solution/R/lesson_4-R.ipynb)
+> ### [This lesson is available in R!](solution/R/lesson_4-R.ipynb)
 
 ## Introduction
 
@@ -38,7 +38,7 @@ Logistic regression differs from linear regression, which you learned about prev
 
 Logistic regression does not offer the same features as linear regression. The former offers a prediction about a binary category ("orange or not orange") whereas the latter is capable of predicting continual values, for example given the origin of a pumpkin and the time of harvest, _how much its price will rise_.
 
-![Pumpkin classification Model](./images/pumpkin-classifier.png)
+![Pumpkin classification Model](images/pumpkin-classifier.png)
 > Infographic by [Dasani Madipalli](https://twitter.com/dasani_decoded)
 ### Other classifications
 
@@ -47,7 +47,7 @@ There are other types of logistic regression, including multinomial and ordinal:
 - **Multinomial**, which involves having more than one category - "Orange, White, and Striped".
 - **Ordinal**, which involves ordered categories, useful if we wanted to order our outcomes logically, like our pumpkins that are ordered by a finite number of sizes (mini,sm,med,lg,xl,xxl).
 
-![Multinomial vs ordinal regression](./images/multinomial-vs-ordinal.png)
+![Multinomial vs ordinal regression](images/multinomial-vs-ordinal.png)
 
 ### Variables DO NOT have to correlate
 
@@ -81,7 +81,7 @@ First, clean the data a bit, dropping null values and selecting only some of the
 
 ### Visualization - categorical plot
 
-By now you have loaded up the [starter notebook](./notebook.ipynb) with pumpkin data once again and cleaned it so as to preserve a dataset containing a few variables, including `Color`. Let's visualize the dataframe in the notebook using a different library: [Seaborn](https://seaborn.pydata.org/index.html), which is built on Matplotlib which we used earlier. 
+By now you have loaded up the [starter notebook](notebook.ipynb) with pumpkin data once again and cleaned it so as to preserve a dataset containing a few variables, including `Color`. Let's visualize the dataframe in the notebook using a different library: [Seaborn](https://seaborn.pydata.org/index.html), which is built on Matplotlib which we used earlier. 
 
 Seaborn offers some neat ways to visualize your data. For example, you can compare distributions of the data for each `Variety` and `Color` in a categorical plot.
 
@@ -348,7 +348,7 @@ plt.show()
 ```
 Using Matplotlib, plot the model's [Receiving Operating Characteristic](https://scikit-learn.org/stable/auto_examples/model_selection/plot_roc.html?highlight=roc) or ROC. ROC curves are often used to get a view of the output of a classifier in terms of its true vs. false positives. "ROC curves typically feature true positive rate on the Y axis, and false positive rate on the X axis." Thus, the steepness of the curve and the space between the midpoint line and the curve matter: you want a curve that quickly heads up and over the line. In our case, there are false positives to start with, and then the line heads up and over properly:
 
-![ROC](./images/ROC_2.png)
+![ROC](images/ROC_2.png)
 
 Finally, use Scikit-learn's [`roc_auc_score` API](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.roc_auc_score.html?highlight=roc_auc#sklearn.metrics.roc_auc_score) to compute the actual 'Area Under the Curve' (AUC):
 

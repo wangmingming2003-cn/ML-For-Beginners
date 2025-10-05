@@ -1,12 +1,12 @@
 # Build a regression model using Scikit-learn: prepare and visualize data
 
-![Data visualization infographic](./images/data-visualization.png)
+![Data visualization infographic](images/data-visualization.png)
 
 Infographic by [Dasani Madipalli](https://twitter.com/dasani_decoded)
 
 ## [Pre-lecture quiz](https://gray-sand-07a10f403.1.azurestaticapps.net/quiz/11/)
 
-> ### [This lesson is available in R!](./solution/R/lesson_2-R.ipynb)
+> ### [This lesson is available in R!](solution/R/lesson_2-R.ipynb)
 
 ## Introduction
 
@@ -169,7 +169,7 @@ Try to create some basic plots to display the new dataframe you just created. Wh
     plt.show()
     ```
 
-    ![A scatterplot showing price to month relationship](./images/scatterplot.png)
+    ![A scatterplot showing price to month relationship](images/scatterplot.png)
 
     Is this a useful plot? Does anything about it surprise you?
 
@@ -186,7 +186,7 @@ To get charts to display useful data, you usually need to group the data somehow
     plt.ylabel("Pumpkin Price")
     ```
 
-    ![A bar chart showing price to month relationship](./images/barchart.png)
+    ![A bar chart showing price to month relationship](images/barchart.png)
 
     This is a more useful data visualization! It seems to indicate that the highest price for pumpkins occurs in September and October. Does that meet your expectation? Why or why not?
 

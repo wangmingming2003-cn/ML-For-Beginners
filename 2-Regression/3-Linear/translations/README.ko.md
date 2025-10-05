@@ -1,6 +1,6 @@
 # Scikit-learn을 사용한 regression 모델 만들기: regression 2가지 방식
 
-![Linear vs polynomial regression infographic](.././images/linear-polynomial.png)
+![Linear vs polynomial regression infographic](../images/linear-polynomial.png)
 > Infographic by [Dasani Madipalli](https://twitter.com/dasani_decoded)
 
 ## [강의 전 퀴즈](https://gray-sand-07a10f403.1.azurestaticapps.net/quiz/13/)
@@ -185,7 +185,7 @@ lin_pumpkins
 
    plt.show()
    ```
-   ![A scatterplot showing package to price relationship](.././images/linear.png)
+   ![A scatterplot showing package to price relationship](../images/linear.png)
 
 4. 가상의 Variety에 대하여 모델을 테스트합니다:
 
@@ -233,7 +233,7 @@ Polynomial regression은 nonlinear 데이터에 더 맞는 곡선을 만듭니�
    corr.style.background_gradient(cmap='coolwarm')
    ```
    이 코드로 heatmap을 만듭니다:
-   ![A heatmap showing data correlation](.././images/heatmap.png)
+   ![A heatmap showing data correlation](../images/heatmap.png)
 
 이 차트를 보고 있으면, 패키지와 가격 사이 좋은 상관 관계를 시각화할 수 있습니다. 그래서 이전의 모델보다 약간 좋게 만들 수 있어야 합니다.
 
@@ -283,7 +283,7 @@ Scikit-learn에는 polynomial regression 모델을 만들 때 도움을 받을 �
 
 `pd.DataFrame`을 불러서 새로운 데이터프레임을 만듭니다. 그러면 `sort_values()`도 불러서 값을 정렬합니다. 마지막으로 polynomial plot을 만듭니다:
 
-![A polynomial plot showing package to price relationship](.././images/polynomial.png)
+![A polynomial plot showing package to price relationship](../images/polynomial.png)
 
 데이터에 더 맞는 곡선을 볼 수 있습니다.
 

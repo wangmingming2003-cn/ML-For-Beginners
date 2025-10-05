@@ -189,7 +189,7 @@ Scikit-learn 사용하면 올바르게 모델을 만들고 사용하기 위해 �
     plt.show()
     ```
 
-   ![a scatterplot showing datapoints around diabetes](.././images/scatterplot.png)
+   ![a scatterplot showing datapoints around diabetes](../images/scatterplot.png)
 
    ✅ 여기에 어떤 일이 생기는 지 생각합니다. 직선은 많은 데이터의 점을 지나지만, 무엇을 하고있나요? 라인으로 보이지 않는 데이터 포인트가 plot y 축으로 연관해서, 새롭게 맞출 지 예측하는 방식을 알 수 있을까요? 모델의 실제 사용 사례를 말 해봅니다.
 

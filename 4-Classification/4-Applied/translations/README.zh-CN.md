@@ -330,4 +330,4 @@ Netron 是查看您模型的有用工具。
 
 ## 作业
 
-[构建一个推荐器](../translations/assignment.zh-CN.md)
+[构建一个推荐器](assignment.zh-CN.md)

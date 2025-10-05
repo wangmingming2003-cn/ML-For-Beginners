@@ -61,7 +61,7 @@ Clustering이 데이터셋에 라벨을 붙이지 않거나 입력이 미리 정
 >
 > 이 컨텍스트에서 'Flat'은 Euclidean 기하학 (일부는 'plane' 기하학으로 가르침)을, non-flat은 non-Euclidean을 나타냅니다. 기하학은 머신러닝과 어떤 연관성이 있나요? 음, 수학과 기반이 같은 두 필드라서, 클러스터에서 포인트 사이의 거리를 측정할 수 있는 공통 방식이 있으며, 데이터의 특성에 기반해서, 'flat' 또는 'non-flat'으로 마무리지을 수 있습니다. [Euclidean distances](https://wikipedia.org/wiki/Euclidean_distance)는 두 포인트 사이 선분의 길이로 측정합니다. [Non-Euclidean distances](https://wikipedia.org/wiki/Non-Euclidean_geometry)는 곡선에 따라서 측정됩니다. 만약 데이터가, 시각화되어서, 평면에 존재하지 않은 것으로 보인다면, 특별 알고리즘을 사용해서 핸들링할 수 있습니다.
 >
-![Flat vs Nonflat Geometry Infographic](.././images/flat-nonflat.png)
+![Flat vs Nonflat Geometry Infographic](../images/flat-nonflat.png)
 > Infographic by [Dasani Madipalli](https://twitter.com/dasani_decoded)
 > 
 > 🎓 ['Distances'](https://web.stanford.edu/class/cs345a/slides/12-clustering.pdf)
@@ -85,12 +85,12 @@ Clustering이 데이터셋에 라벨을 붙이지 않거나 입력이 미리 정
 
 - **Hierarchical clustering**. 만약 오브젝트가 멀리 떨어져있지 않고, 가까운 오브젝트와 근접성으로 분류된다면, 클러스터는 다른 오브젝트의 거리에 따라서 형태가 만들어집니다. Scikit-learn의 agglomerative clustering은 계층적입니다.
 
-   ![Hierarchical clustering Infographic](.././images/hierarchical.png)
+   ![Hierarchical clustering Infographic](../images/hierarchical.png)
    > Infographic by [Dasani Madipalli](https://twitter.com/dasani_decoded)
 
 - **Centroid clustering**. 이 인기있는 알고리즘은 'k', 또는 형성할 클러스터의 수를 선택해야 될 필요가 있으며, 이후 알고리즘은 클러스터의 중심 포인트를 결정하고 포인트 주변 데이터를 수집합니다. [K-means clustering](https://wikipedia.org/wiki/K-means_clustering)은 인기있는 centroid clustering 버전입니다. 중심이 가까운 평균에 따라서 이름이 정해집니다. 클러스터에서 제곱 거리가 최소화됩니다.
 
-   ![Centroid clustering Infographic](.././images/centroid.png)
+   ![Centroid clustering Infographic](../images/centroid.png)
    > Infographic by [Dasani Madipalli](https://twitter.com/dasani_decoded)
 
 - **Distribution-based clustering**. 통계 모델링에서, distribution-based clustering은 데이터 포인트가 클러스터에 있는 확률을 기반으로, 할당에 중점을 둡니다. Gaussian mixture 방식이 이 타입에 속합니다.
@@ -226,7 +226,7 @@ Clustering이 데이터셋에 라벨을 붙이지 않거나 입력이 미리 정
     plt.title('Top genres',color = 'blue')
     ```
 
-    ![most popular](.././images/popular.png)
+    ![most popular](../images/popular.png)
 
 ✅ 만약 상위 값을 많이 보려면,  top `[:5]`을 더 큰 값으로 변경하거나, 제거해서 다 봅니다.
 

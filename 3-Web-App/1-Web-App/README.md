@@ -48,7 +48,7 @@ In this lesson you'll use data from 80,000 UFO sightings, gathered by [NUFORC](h
 - **Long example description.** "A man emerges from a beam of light that shines on a grassy field at night and he runs towards the Texas Instruments parking lot".
 - **Short example description.** "the lights chased us".
 
-The [ufos.csv](./data/ufos.csv) spreadsheet includes columns about the `city`, `state` and `country` where the sighting occurred, the object's `shape` and its `latitude` and `longitude`.
+The [ufos.csv](data/ufos.csv) spreadsheet includes columns about the `city`, `state` and `country` where the sighting occurred, the object's `shape` and its `latitude` and `longitude`.
 
 In the blank [notebook](notebook.ipynb) included in this lesson:
 
@@ -58,7 +58,7 @@ In the blank [notebook](notebook.ipynb) included in this lesson:
     import pandas as pd
     import numpy as np
     
-    ufos = pd.read_csv('./data/ufos.csv')
+    ufos = pd.read_csv('data/ufos.csv')
     ufos.head()
     ```
 

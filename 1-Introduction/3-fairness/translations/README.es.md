@@ -208,4 +208,4 @@ Lee acerca de las herramientas de Azure Machine Learning para asegurar justicia
 
 ## Tarea
 
-[Explora Fairlearn](../translations/assignment.es.md)
+[Explora Fairlearn](assignment.es.md)
